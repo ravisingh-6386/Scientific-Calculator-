@@ -1,0 +1,31 @@
+name: scientific_calculator
+description: A professional scientific calculator app with Flutter
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # State Management
+  provider: ^6.1.1
+  
+  # Math expression parsing
+  math_expressions: ^2.4.0
+  
+  # Icons
+  cupertino_icons: ^1.0.6
+  
+  # Date formatting
+  intl: ^0.18.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
