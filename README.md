@@ -4,14 +4,6 @@ A professional scientific calculator mobile application built with Flutter featu
 
 ## Features
 
-### 🎨 UI Design
-- Modern Material Design interface
-- Professional dark theme (iOS-inspired)
-- Responsive grid layout
-- Large, scrollable display for expressions and results
-- Animated button press effects with ripple animations
-- Color-coded buttons for different operations
-
 ### 🔢 Basic Operations
 - **Arithmetic**: Addition (+), Subtraction (-), Multiplication (×), Division (÷)
 - **Modulus**: Percentage (%)
@@ -175,39 +167,7 @@ dependencies:
    flutter build ios --release
    ```
 
-## Usage Guide
 
-### Basic Calculations
-1. Tap number buttons to build expression
-2. Tap operator buttons (+, -, ×, ÷)
-3. Press "=" to calculate result
-
-### Scientific Functions
-1. Tap function button (sin, cos, tan, etc.)
-2. Enter value inside parentheses
-3. Close parentheses if needed
-4. Press "=" to calculate
-
-Example: `sin(30)` → Result: `0.5`
-
-### Complex Expressions
-Build nested expressions with parentheses:
-- `(2+3)×(4+5)` → Result: `45`
-- `sqrt(16)+2^3` → Result: `12`
-- `2π×5` → Result: `31.415926...`
-
-### History
-1. Tap history icon (top-right)
-2. View past calculations
-3. Tap any calculation to see details
-4. Tap copy icon to copy result
-5. Tap delete icon to clear all history
-
-### Error Handling
-The calculator displays error messages for:
-- Division by zero → "Error: Division by zero"
-- Invalid expressions → "Error: Invalid expression"
-- Invalid operations → "Error: Invalid operation"
 
 ## Code Comments
 
